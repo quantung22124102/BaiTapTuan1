@@ -1,0 +1,37 @@
+A.
+1. Lệnh trên khai báo isA kiểu bool, gán isA bằng giá trị grade khi grade là biến kiểu int và nằm trong khoảng [90;100].
+ => If(grade >= 90 && grade <=100)
+{
+   bool isA = grade;
+}
+2. chương trình sau đây in ra kết quả của x.
+    double x=(double)(3/5);
+    cout<<x;
+
+3. đoạn code không in ra được vì giá trị x*x=2^32 nằm ngoài phạm vi kiểu dữ liệu int.
+
+4. biểu thức (Math.sqrt(2) * Math.sqrt(2) == 2) tính tích của 2 căn bậc 2.
+
+5. khi chia một giá trị kiểu int hoặc double cho 0 hoặc lấy đồng dư cho 0 thì chương trình sẽ báo lỗi.
+
+6. với int a = 27 * "three"; trình biên dịch sẽ báo lỗi: invalid operands of types 'int' and 'const char[6] to binary 'operator'.
+  Với đoạn main dưới trình biên dịch sẽ không báo lỗi.
+  Nếu chuyển dòng khai báo x ra ngoài hàm main chương trình sẽ báo lỗi.
+
+7. đoạn code trên cho ra output:
+  0
+  0.75
+  0.75
+  0.75 
+
+8. chương trình sẽ báo lỗi nếu tên hai biến bị trùng trong một khối lệnh "conflicting". 
+
+9. chương trình không có lỗi sẽ in ra kết quả bằng "A".
+   khi ở bên trong khối lệnh con, định danh arg1 chỉ tới biến char của arg1 trong khối lệnh con.
+
+10. chương trình không có lỗi sẽ in ra kết quả bằng "-1".
+    khi ở bên ngoài khối lệnh con, định danh arg1 chỉ tới biến int của arg1 trong khối lệnh con.
+
+11. lệnh đúng.
+
+12. đoạn code đó in ra "Here".
